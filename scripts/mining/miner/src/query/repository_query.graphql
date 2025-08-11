@@ -1,0 +1,32 @@
+query ($num_repos: Int!, $cursor: String) {
+    search(
+        query: "stars:>1, sort:stars-desc"
+        type: REPOSITORY
+        first: $num_repos
+        after: $cursor
+    ) {
+        edges {
+            node {
+                ... on Repository {
+                    id
+                    name
+                    owner {
+                        login
+                    }
+                    stargazerCount
+                    pullRequests {
+                        totalCount
+                    }
+                    primaryLanguage {
+                        name
+                    }
+                }
+            }
+        }
+        pageInfo {
+            endCursor
+            hasNextPage
+            hasPreviousPage
+        }
+    }
+}

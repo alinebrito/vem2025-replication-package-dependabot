@@ -1,0 +1,1 @@
+variable "ecr_image_repository_name" {}

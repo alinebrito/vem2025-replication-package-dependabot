@@ -1,0 +1,30 @@
+language;pullRequestsNumbers;pullRequestsNumberPercentage
+Python;3434;8,52
+JavaScript;6926;17,19
+TypeScript;15660;38,87
+Go;4780;11,86
+Java;1826;4,53
+Rust;2826;7,01
+C++;31;0,08
+HTML;190;0,47
+Shell;191;0,47
+Jupyter Notebook;143;0,35
+C;62;0,15
+CSS;438;1,09
+Desconhecida;15;0,04
+Dart;19;0,05
+Clojure;93;0,23
+Astro;1736;4,31
+Lua;105;0,26
+Kotlin;40;0,1
+Haskell;18;0,04
+C#;1183;2,94
+PHP;7;0,02
+Nunjucks;141;0,35
+Markdown;11;0,03
+MDX;41;0,1
+Ruby;244;0,61
+Svelte;106;0,26
+Swift;8;0,02
+Vim Script;5;0,01
+Vue;13;0,03

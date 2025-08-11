@@ -1,0 +1,46 @@
+query ($repo_name: String!, $repo_owner: String!, $pull_request_num: Int, $cursor: String) {
+  repository(name: $repo_name, owner: $repo_owner) {
+      name
+      id
+      owner {
+          login
+      }
+      primaryLanguage {
+          name
+      }
+      stargazerCount
+      pullRequests(first: $pull_request_num, after: $cursor) {
+          nodes {
+              state
+              createdAt
+              closedAt
+              updatedAt
+              publishedAt
+              mergedAt
+              lastEditedAt
+              changedFiles
+              deletions
+              additions
+              title
+              author {
+                  login
+              }
+              participants {
+                  totalCount
+              }
+              commits {
+                  totalCount
+              }
+              reviews {
+                  totalCount
+              }
+          }
+          totalCount
+          pageInfo {
+              endCursor
+              hasNextPage
+              hasPreviousPage
+            }
+        }
+    }
+}

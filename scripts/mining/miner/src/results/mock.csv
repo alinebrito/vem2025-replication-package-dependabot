@@ -1,0 +1,8 @@
+ObjectId,RepositoryId,RepositoryName,OwnerName,Author,State,CreatedAt,ClosedAt,UpdatedAt,PublishedAt,MergedAt,LastEditedAt,ChangedFiles,Deletions,Additions,Title,ParticipantsCount,CommitsCount,ReviewsCount
+1,101,repo-one,owner1,dependabot,open,2024-10-01T12:00:00Z,,,,2024-10-02T12:00:00Z,2024-10-01T12:00:00Z,1,0,5,Fix dependency issue,2,1,0
+2,102,repo-two,owner2,dependabot,open,2024-09-15T12:00:00Z,,,,2024-09-16T12:00:00Z,2024-09-15T12:00:00Z,1,0,3,Update package,1,1,0
+3,103,repo-three,owner1,dependabot,open,2024-09-20T12:00:00Z,,,,2024-09-21T12:00:00Z,2024-09-20T12:00:00Z,1,0,4,Upgrade library,3,2,1
+4,104,repo-four,owner2,dependabot,merged,2023-08-01T12:00:00Z,,,,2024-08-02T12:00:00Z,2024-08-01T12:00:00Z,1,0,2,Security update,1,1,1
+5,105,repo-five,owner3,user1,open,2023-10-10T12:00:00Z,,,,2024-10-11T12:00:00Z,2024-10-10T12:00:00Z,2,0,8,Feature addition,1,1,1
+6,104,repo-four,owner2,use49,closed,2022-08-01T12:00:00Z,,,,2024-08-02T12:00:00Z,2024-08-01T12:00:00Z,1,0,2,Security update,1,1,1
+7,104,repo-four,owner2,use49,closed,2024-10-19T12:00:00Z,,,,2024-08-02T12:00:00Z,2024-08-01T12:00:00Z,1,0,2,Security update,1,1,1
