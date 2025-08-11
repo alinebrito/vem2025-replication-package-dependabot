@@ -48,33 +48,28 @@ Abaixo se encontram características gerais do _dataset_ utilizado neste experim
 - Nº total de repositórios minerados: `500`
 - Nº de repositórios com pelo menos 1 PR do Dependabot: `232`
 
-#### Informações das _Pull Requests_
+#### Informações dos _Pull Requests_
 
-- Nº total de PRs mineradas: `909879`
-- Nº de PRs do Dependabot encontradas: `40292`
-- Média de PRs por repositório: `181.76`
-- Média de PRs do Dependabot por repositório: `80.58`
-- Proporção de PRs do Dependabot em relação ao total: `4.43%`
-
-
-- Total de PRs aceitos (MERGED): `23980`
-- Total de PRs rejeitados (CLOSED): `15512`
-- Total de PRs em aberto (OPEN): `800`
-- Total de PRs analisados (MERGED): `40292`
-
-
-- Porcentagem de PRs aceitos: `59.52%`
-- Porcentagem de PRs rejeitados: `38.5%`
-- Porcentagem de PRs em aberto: `1.99%`
-
-
-- Maior taxa de aceitação por projeto: `100.0%`
-- Menor taxa de aceitação por projeto: `0.0%`
-- Mediana da taxa de aceitação por projeto: `58.43%`
-
-- Projeto com o PR que levou mais tempo para ser aceito: `prettier`, com um pull request aceito após `12 meses`.
-- Projeto com o PR que levou menos tempo para ser aceito: `tldraw`, com um pull request aceito após `7 segundos`.
-- Tempo médio em dias para fechar um PR: `9 dias`
+| Métrica | Valor |
+| --- | --- |
+| Nº total de PRs minerados | `909,879` |
+| Nº de PRs do Dependabot encontradas | `40,292` |
+| Média de PRs por repositório | `181.76` |
+| Média de PRs do Dependabot por repositório | `80.58` |
+| Proporção de PRs do Dependabot em relação ao total | `4.43%` |
+| Total de PRs aceitos (`MERGED`) | `23,980` |
+| Total de PRs rejeitados (`CLOSED`) | `15,512` |
+| Total de PRs em aberto (`OPEN`) | `800` |
+| Total de PRs analisados (`MERGED`) | `40,292` |
+| Porcentagem de PRs aceitos | `59.52%` |
+| Porcentagem de PRs rejeitados | `38.50%` |
+| Porcentagem de PRs em aberto | `1.99%` |
+| Maior taxa de aceitação por projeto | `100.0%` |
+| Menor taxa de aceitação por projeto | `0.0%` |
+| Mediana da taxa de aceitação por projeto | `58.43%` |
+| Projeto com o PR que levou mais tempo para ser aceito | `prettier` — aceito após `12 meses` |
+| Projeto com o PR que levou menos tempo para ser aceito | `tldraw` — aceito após `7 segundos` |
+| Tempo médio para fechar um PR | `9 dias` |
 
 #### Top 3 linguagens com mais PRs do Dependabot
 1. **TypeScript**: `15660` PRs (`38.87%`)
@@ -87,19 +82,21 @@ Abaixo se encontram características gerais do _dataset_ utilizado neste experim
 
 #### Linguagem principal utilizada nos repositórios
 
-- **Python**: `90` repositórios
-- **JavaScript**: `78` repositórios
-- **TypeScript**: `69` repositórios
-- **Go**: `32` repositórios
-- **Java**: `28` repositórios
-- **Rust**: `23` repositórios
-- **C++**: `15` repositórios
-- **HTML**: `13` repositórios
-- **Shell**: `11` repositórios
-- **Jupyter Notebook**: `10` repositórios
-- **C**: `9` repositórios
+| Linguagem | Nº de repositórios |
+| --- | --- |
+| Python | `90` |
+| JavaScript | `78` |
+| TypeScript | `69` |
+| Go | `32` |
+| Java | `28` |
+| Rust | `23` |
+| C++ | `15` |
+| HTML | `13` |
+| Shell | `11` |
+| Jupyter Notebook | `10` |
+| C | `9` |
 
-**Total de PRs em linguagens não populares (excluindo 'Desconhecida')**: `4208` PRs (`10.45%`)
+> **Total de PRs em linguagens não populares (excluindo 'Desconhecida')**: `4208` PRs (`10.45%`)
 
 ## Instruções de replicação
 
